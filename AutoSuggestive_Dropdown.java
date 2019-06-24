@@ -10,7 +10,7 @@ public class AutoSuggestive_Dropdown {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		System.getProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver(); driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.makemytrip.com/");
