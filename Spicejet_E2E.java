@@ -81,6 +81,7 @@ public class Spicejet_E2E {
 
 		// Search
 		driver.findElement(By.id("ctl00_mainContent_btn_FindFlights")).click();
+		driver.quit();
 
 	}
 
